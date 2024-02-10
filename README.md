@@ -24,4 +24,5 @@
 - check the branch using "git branch"
 - create a copy of main branch --> "git branch prashant", check git branch now & it will reflect 2 branches main & prashant
 - now in order to work on that branch --> "git checkout prashant", check the branch git branch
-- now prahsant modified readme file 
+- now prahsant modified readme file, check status & add the changes to staging, commit with your message
+- The changes are saved in "prashant" branch & now we can merge our branch with updated codes to main branch --> switch to main branch "git checkout main" & merge "prashant" branch with main --> git merge prashant

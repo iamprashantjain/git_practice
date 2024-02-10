@@ -3,4 +3,10 @@
 - "git init" --> to initialize any folder in local system as a repo on github, this will create a hidden folder ".git"
 - initially files will say "U" which means untracked.. to track those files, use git add
 - then use "git add README.md" to add readme file
+- After adding the file, status will change to "A" means added
 - check status using "git status"
+- now commit all tracked files to temp staging environment which will be pushed to github repo later using "git commit -m 'adding readme file'"
+- rename branch to main --> "git branch -M main" & check branch "git branch"
+- add the location of repo where you want to push the staged files to using "git remote add origin https://github.com/iamprashantjain/git_practice.git"
+- push staged files to repo using "git push -u origin main"
+

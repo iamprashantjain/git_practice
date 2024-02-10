@@ -20,6 +20,7 @@
 - If we run "git add ." which adds everything to staging, it will ignore venv bcoz we have defined it in gitignore file to be ignored
 
 - Branch in git --> suppose we're working on a project in a company.. so the project have a main branch.. there are 3 developers working simultaneously on the same project.. they will simply make a copy of the main branch, add thier codes & merge thier branch with main branch & delete thier copy branch
+- To resolve conflicts when 2 developers simultaneously working on the same file.. first pull.. see what changes have been made & which one to keep.. & commit that & push again
 
 - check the branch using "git branch"
 - create a copy of main branch --> "git branch prashant", check git branch now & it will reflect 2 branches main & prashant

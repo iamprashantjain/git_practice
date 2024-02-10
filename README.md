@@ -28,3 +28,4 @@
 - now prahsant modified readme file, check status & add the changes to staging, commit with your message
 - The changes are saved in "prashant" branch & now we can merge our branch with updated codes to main branch --> switch to main branch "git checkout main" & merge "prashant" branch with main --> git merge prashant
 - now since we no longer require that additional branch we created, we can delete that branch "git branch -d <branch name>"
+- Conflict resolve --> when 2 or more developer are working on the same code simulatnesouly then when you try to push your code you might get error, in that case, you can first pull & see the changes being made, decide which one to keep & commit push that changes

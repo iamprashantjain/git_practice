@@ -1,0 +1,6 @@
+- practicing git commands
+- git is a version control system & github is a repository to store/manage codes
+- "git init" --> to initialize any folder in local system as a repo on github, this will create a hidden folder ".git"
+- initially files will say "U" which means untracked.. to track those files, use git add
+- then use "git add README.md" to add readme file
+- check status using "git status"

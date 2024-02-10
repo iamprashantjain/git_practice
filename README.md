@@ -11,3 +11,4 @@
 - add the location of repo where you want to push the staged files to using "git remote add origin https://github.com/iamprashantjain/git_practice.git"
 - push staged files in main branch to repo using "git push -u origin main"
 - After updating readme file.. send updated file to repo by first adding the file in staged environment, update commit msg & then push to repo.
+- file status will say "M" which means modified but not staged.. so to update that file to repo.. add the file in staged ennvironment & push

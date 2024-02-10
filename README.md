@@ -15,6 +15,7 @@
 - create a new file ".gitignore" from web interface of github, but since it is not in our local system as it was added from the web, we can use "git pull origin main" to update our local system folder with all files on github repo
 - whats the use of ".gitignore" --> to prevent files to be ignored uploading to github repo, lets say we have a virtualenv "venv" for our project, we should not update the virtualenv to github repo
 - we can add this folder in gitignore file to be ignored by just writing "venv/"
+- if you check git status before adding, venv folder will show as tracked but after defining it in gitignore file it will be untracked
 - now git status is showing 2 filed modified --> readme & .gitignore
 - If we run "git add ." which adds everything to staging, it will ignore venv bcoz we have defined it in gitignore file to be ignored
- 
+-  

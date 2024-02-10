@@ -18,4 +18,10 @@
 - if you check git status before adding, venv folder will show as tracked but after defining it in gitignore file it will be untracked
 - now git status is showing 2 filed modified --> readme & .gitignore
 - If we run "git add ." which adds everything to staging, it will ignore venv bcoz we have defined it in gitignore file to be ignored
--  
+
+- Branch in git --> suppose we're working on a project in a company.. so the project have a main branch.. there are 3 developers working simultaneously on the same project.. they will simply make a copy of the main branch, add thier codes & merge thier branch with main branch & delete thier copy branch
+
+- check the branch using "git branch"
+- create a copy of main branch --> "git branch prashant", check git branch now & it will reflect 2 branches main & prashant
+- now in order to work on that branch --> "git checkout prashant", check the branch git branch
+- now prahsant modified readme file 

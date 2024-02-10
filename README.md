@@ -12,3 +12,9 @@
 - push staged files in main branch to repo using "git push -u origin main"
 - After updating readme file.. send updated file to repo by first adding the file in staged environment, update commit msg & then push to repo.
 - file status will say "M" which means modified but not staged.. so to update that file to repo.. add the file in staged ennvironment & push
+- create a new file ".gitignore" from web interface of github, but since it is not in our local system as it was added from the web, we can use "git pull origin main" to update our local system folder with all files on github repo
+- whats the use of ".gitignore" --> to prevent files to be ignored uploading to github repo, lets say we have a virtualenv "venv" for our project, we should not update the virtualenv to github repo
+- we can add this folder in gitignore file to be ignored by just writing "venv/"
+- now git status is showing 2 filed modified --> readme & .gitignore
+- If we run "git add ." which adds everything to staging, it will ignore venv bcoz we have defined it in gitignore file to be ignored
+ 

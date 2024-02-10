@@ -8,5 +8,5 @@
 - now commit all tracked files to temp staging environment which will be pushed to github repo later using "git commit -m 'adding readme file'"
 - rename branch to main --> "git branch -M main" & check branch "git branch"
 - add the location of repo where you want to push the staged files to using "git remote add origin https://github.com/iamprashantjain/git_practice.git"
-- push staged files to repo using "git push -u origin main"
-
+- push staged files in main branch to repo using "git push -u origin main"
+- After updating readme file.. send updated file to repo by first adding the file in staged environment, update commit msg & then push to repo.
